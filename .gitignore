@@ -1,0 +1,24 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+
+# Build output
+build/
+exports/
+
+# Imported translations (these are automatically generated)
+*.translation
+
+# Mono-specific
+.mono/
+data_*/
+mono_crash.*.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
