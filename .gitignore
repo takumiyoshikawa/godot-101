@@ -2,17 +2,20 @@
 .godot/
 .import/
 
+# XDG sandboxes used by headless runs
+.tmp-godot-data/
+.tmp-godot-config/
+.tmp-godot-cache/
+
+# Headless run logs
+logs/
+
 # Build output
 build/
 exports/
 
 # Imported translations (these are automatically generated)
 *.translation
-
-# Mono-specific
-.mono/
-data_*/
-mono_crash.*.json
 
 # System
 .DS_Store
