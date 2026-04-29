@@ -1,5 +1,7 @@
 extends Node2D
 
+const INTRO_TIMELINE := "res://features/dialogue/intro.dtl"
+
 var test_mode := false
 
 var elapsed := 0.0
@@ -9,6 +11,8 @@ var custom_metrics: Dictionary = {}
 
 func _ready() -> void:
 	_reset_game()
+	if not test_mode:
+		Dialogic.start(INTRO_TIMELINE)
 
 func _physics_process(delta: float) -> void:
 	if test_mode:

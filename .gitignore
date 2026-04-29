@@ -25,3 +25,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
+
+.playwright/
+.playwright-cli/
+
+
