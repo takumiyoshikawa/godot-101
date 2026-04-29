@@ -1,3 +1,37 @@
-これは Dialogic で表示する最初のセリフです。
-タップまたは Enter / スペースで次に進みます。
-動作確認用の最小タイムラインです。
+[background arg="res://assets/sprites/backgrounds/study.png" fade=1.5 wait=true]
+
+ザ・キャットファーザー
+
+夜更けのキャトレオーネ商会、奥の書斎。
+葉巻の煙と古い革の匂いが漂っている。
+
+join Don 2 [animation="Fade In Up" length="1.0"]
+join Luca 4 [animation="Fade In Up" length="1.0"]
+
+Don: 入りなさい。
+
+join Tomaso 1 [animation="Fade In Up" length="1.0"]
+
+Tomaso: ドン・キャトレオーネ……夜分に失礼いたします。
+Tomaso: その……他に頼れる方が、いないんです。
+Don: 座りなさい、坊や。雨に濡れた仔猫みたいに震えてるじゃないか。
+Don: 話してごらん——いったい誰にやられた?
+Tomaso: 六番街の倉庫の、ネズミどもです。
+Tomaso: 兄を……兄を連れて行かれました。何もかも、奪われて。
+Don: ……。
+Don: ルカ。
+Luca: はい、パドリーノ。
+Don: この紳士に、必要なものをすべて手配してやれ。
+Don: それと、あの倉庫には——この街の主が誰なのか、思い出させてやろう。
+Luca: かしこまりました。
+Tomaso: ドン・キャトレオーネ……ありがとうございます。本当に、ありがとうございます。
+Don: いつの日か——その日は来ないかもしれんが——お前さんに一つ頼みごとをするかもしれん。
+Don: それまでは、達者でな。
+
+leave Tomaso [animation="Fade Out Down" length="1.0"]
+
+Don: ……良い晩だな、ルカ。商売には。
+Luca: 仰せの通りに、パドリーノ。
+
+leave Luca [animation="Fade Out Down" length="0.8"]
+leave Don [animation="Fade Out Down" length="0.8"]

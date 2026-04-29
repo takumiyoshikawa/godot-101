@@ -20,7 +20,11 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"Don": "res://features/characters/don.dch",
+"Luca": "res://features/characters/luca.dch",
+"Tomaso": "res://features/characters/tomaso.dch"
+}
 directories/dtl_directory={
 "intro": "res://features/dialogue/intro.dtl"
 }

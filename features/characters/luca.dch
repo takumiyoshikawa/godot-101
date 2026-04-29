@@ -1,0 +1,22 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(0.53333336, 0.7529412, 0.8156863, 1),
+&"custom_info": {},
+&"default_portrait": "neutral",
+&"description": "",
+&"display_name": "Luca",
+&"mirror": false,
+&"nicknames": [],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"neutral": {
+"export_overrides": {
+"image": "\"res://assets/sprites/characters/luca.png\""
+},
+"scene": "res://addons/dialogic/Modules/Character/default_portrait.tscn"
+}
+},
+&"scale": 1.0
+}
