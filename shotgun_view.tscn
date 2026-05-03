@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://shotgun_view.gd" id="1_q4aqx"]
+
+[node name="ShotgunView" type="Node3D" unique_id=1268296942]
+script = ExtResource("1_q4aqx")
