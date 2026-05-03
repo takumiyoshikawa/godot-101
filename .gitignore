@@ -29,4 +29,12 @@ Thumbs.db
 .playwright/
 .playwright-cli/
 
+# Generated 3D assets (rebuild via .agents/skills/blender-asset/build.sh)
+assets/models/*.glb
+assets/models/*.glb.import
+
+# Python bytecode
+__pycache__/
+*.pyc
+
 
